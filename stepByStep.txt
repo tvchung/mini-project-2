@@ -1,0 +1,7 @@
+mini-project-2
+Shopping Cart Project
+1. Tạo ứng dụng ReactJs và cài đặt các package redux, react-redux
+	npx create-react-app shopping-cart
+	cd shopping-cart
+	npm install --s redux react-redux 
+2. 

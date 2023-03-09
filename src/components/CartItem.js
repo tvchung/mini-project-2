@@ -19,16 +19,14 @@ export default class CartItem extends Component {
           <strong>12 USD</strong>
         </td>
         <td>
-          <a
+          <a type="button"  href="/#"
             className="label label-info update-cart-item"
-            href="#"
             data-product=""
           >
             Update
           </a>
-          <a
+          <a type='button' href="/#"
             className="label label-danger delete-cart-item"
-            href="#"
             data-product=""
           >
             Delete

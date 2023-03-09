@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class CartFooter extends Component {
+export default class CartInfo extends Component {
   render() {
     return (
         <tr>

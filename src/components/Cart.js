@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import CartFooter from "./CartFooter";
+import CartInfo from "./CartInfo";
 import CartItem from "./CartItem";
 import Notify from "./Notify";
 
@@ -29,7 +29,7 @@ export default class Cart extends Component {
               </tbody>
               <tfoot id="my-cart-footer">
                 {/* CART FOOTER */}
-                <CartFooter />
+                <CartInfo />
               </tfoot>
             </table>
           </div>

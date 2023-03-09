@@ -5,7 +5,7 @@ export default class Product extends Component {
     return (
       <div className="media product">
         <div className="media-left">
-          <a href="#">
+          <a type="button" href="/#">
             <img
               className="media-object"
               src="images/aplusautomation.jpg"
@@ -29,7 +29,7 @@ export default class Product extends Component {
           <button data-product={1} className="btn btn-success">
             Mua hàng
           </button>
-          <a data-product={1} href="#" className="price">
+          <a data-product={1} type="button" href="/#" className="price">
             {" "}
             12 USD{" "}
           </a>
